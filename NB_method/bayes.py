@@ -116,7 +116,7 @@ def textRead( fileName ):
 
 import random as rd
 def emailFilterNB():
-#   Main function. This function is an EXAMPLE which wraps up every above function to classify email to spam and ham (type: text). An naive bayes method application.
+#   Example function. Using classifyNB function to classify email into spam and ham (type: text). An naive bayes method application.
 #   create the lists of words from email text documents--------
     wordList = []; classList = []
     for i in range(1,26):
